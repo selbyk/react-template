@@ -17,8 +17,9 @@ export default ({ children }) => {
   return (
     <div>
       <Head>
-        <title>jvarness</title>
+        <title>Selby's React Template</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="shortcut icon" href="/static/favicon.ico" />
       </Head>
       <header>
         <nav className="navbar" role="navigation" aria-label="main navigation">

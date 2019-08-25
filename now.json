@@ -1,0 +1,11 @@
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/next",
+      "config": {
+        "includeFiles": ["static/storybook/**"]
+      }
+    }
+  ]
+}
