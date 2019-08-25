@@ -1,19 +1,23 @@
 {
   "name": "selby.dev",
   "version": "0.0.1",
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "scripts": {
     "test": "jest",
     "dev": "nodemon #next",
     "prebuild": "npm run build-storybook",
     "build": "next build && tsc --project tsconfig.server.json",
     "prenow-build": "npm run build-storybook",
+    "now-build": "next build",
     "prestart": "npm run build",
     "start": "cross-env NODE_ENV=production node dist/index.js #next start",
     "format": "prettier-eslint --list-different --ignore-path .gitignore  --write '**/*.{js,jsx,json,ts,tsx}' '.storybook/**/*.{js,jsx,json,ts,tsx}'",
     "commit": "npx git-cz",
     "lint-staged": "lint-staged",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -o static/storybook"
+    "build-storybook": "build-storybook -o storybook-static"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",

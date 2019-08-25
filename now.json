@@ -1,11 +1,22 @@
 {
+  "version": 2,
   "builds": [
     {
       "src": "package.json",
       "use": "@now/next",
       "config": {
-        "includeFiles": ["static/storybook/**"]
-      }
+        "includeFiles": [
+        "storybook-static/**"
+      ] }
+    },
+    {
+      "src": "scripts/now-static-build.sh",
+      "use": "@now/static",
+      "config": {
+        "distDir": "storybook-static",
+        "includeFiles": [
+        "storybook-static/**"
+      ] }
     }
   ]
 }
