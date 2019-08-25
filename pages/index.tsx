@@ -14,6 +14,7 @@ export default () => (
           <a href="https://bulma.io/">Bulma</a>
           {'!'}
         </h1>
+        <p>This is a starter template for dev with react</p>
       </div>
     </section>
   </Layout>
