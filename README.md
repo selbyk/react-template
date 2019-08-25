@@ -3,6 +3,7 @@
 React using Typescript, Next.js, and Storybook with auto formatting, commit linting, and some other helpful stuff (most listed below under Scripts & References)
 
 [Live app demo](https://react-template.selbyk.now.sh/)
+
 [Live Storybook demo](https://react-template.selbyk.now.sh/storybook)
 
 ## Scripts
@@ -59,37 +60,37 @@ Helpful guides & API docs
 
 JavaScript with some flare
 
-https://basarat.gitbooks.io/typescript/content/docs/getting-started.html
-https://www.typescriptlang.org/docs/handbook/basic-types.html
+- https://basarat.gitbooks.io/typescript/content/docs/getting-started.html
+- https://www.typescriptlang.org/docs/handbook/basic-types.html
 
 ### React
 
 Front-end lib
 
-https://reactjs.org/docs/getting-started.html
+- https://reactjs.org/docs/getting-started.html
 
 ### Next.js
 
 Tooling on top of react for nice things like SSR (e.g. `npm run dev`, `npm start`)
 
-https://nextjs.org/docs
-https://github.com/zeit/next.js/tree/master/examples
+- https://nextjs.org/docs
+- https://github.com/zeit/next.js/tree/master/examples
 
 ### Storybook
 
 Component story manager for testing and development
 
-https://storybook.js.org/docs/basics/introduction/
+- https://storybook.js.org/docs/basics/introduction/
 
 ### Enzyme
 
 Testing lib to simulate user interaction
 
-https://airbnb.io/enzyme/docs/api/
-https://github.com/mthuret/storybook-addon-specifications#getting-started
+- https://airbnb.io/enzyme/docs/api/
+- https://github.com/mthuret/storybook-addon-specifications#getting-started
 
 ### Bulma
 
 CSS framework
 
-https://bulma.io/documentation/overview/
+- https://bulma.io/documentation/overview/
