@@ -11,7 +11,8 @@
     "commit": "npx git-cz",
     "lint-staged": "lint-staged",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -o static/storybook",
+    "postinstall": "npm run build-storybook"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",

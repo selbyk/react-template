@@ -1,4 +1,5 @@
 .next/
 node_modules/
+static/storybook/
 storybook-static/
 dist/

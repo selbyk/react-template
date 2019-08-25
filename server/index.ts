@@ -17,7 +17,10 @@ app.prepare().then(() => {
     next(err);
   }));
 
-  server.use('/storybook', express.static(path.resolve(__dirname, '../storybook-static')));
+  server.use('/storybook', express.static(path.resolve(__dirname, '../static/storybook')));
+  server.use('/storybook', express.static(path.resolve(__dirname, 'static/storybook')));
+  server.use('/storybook', express.static(path.resolve('static/storybook')));
+  server.use('/storybook', express.static('static/storybook'));
 
   server.get('/a', (req, res) => app.render(req, res, '/a', req.query));
   server.get('/b', (req, res) => app.render(req, res, '/b', req.query));
