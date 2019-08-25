@@ -68,7 +68,7 @@ export default ({ children }) => {
       {children}
       <footer className="footer">
         <div className="content has-text-centered">
-          <span>I'm the footer</span>
+          <span>I am the feet</span>
         </div>
       </footer>
     </div>
