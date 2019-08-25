@@ -2,6 +2,9 @@
 
 React using Typescript, Next.js, and Storybook with auto formatting, commit linting, and some other helpful stuff (most listed below under Scripts & References)
 
+[Live app demo](https://react-template.selbyk.now.sh/)
+[Live Storybook demo](https://react-template.selbyk.now.sh/storybook)
+
 ## Scripts
 
 - `npm run build`
@@ -70,6 +73,7 @@ https://reactjs.org/docs/getting-started.html
 Tooling on top of react for nice things like SSR (e.g. `npm run dev`, `npm start`)
 
 https://nextjs.org/docs
+https://github.com/zeit/next.js/tree/master/examples
 
 ### Storybook
 

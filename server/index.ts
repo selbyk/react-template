@@ -1,3 +1,4 @@
+import path from 'path';
 import express, { ErrorRequestHandler } from 'express';
 import morgan from 'morgan';
 import next from 'next';
@@ -15,6 +16,8 @@ app.prepare().then(() => {
     console.error(err);
     next(err);
   }));
+
+  server.use('/storybook', express.static(path.resolve(__dirname, '../storybook-static')));
 
   server.get('/a', (req, res) => app.render(req, res, '/a', req.query));
   server.get('/b', (req, res) => app.render(req, res, '/b', req.query));
